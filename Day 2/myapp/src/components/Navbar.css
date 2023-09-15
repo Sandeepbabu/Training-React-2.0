@@ -1,0 +1,40 @@
+.header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:30px 8px;
+    display:flex;
+    background-color: lightblue;
+    background-position: center;
+    align-items: center;
+}
+
+
+.navbar{
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin:0 20px;
+}
+
+.logo{
+font-size:25px;
+color:blue;
+font-weight: 600;
+}
+
+
+.button{
+    display: flex;
+    padding: 0px;
+    
+}
+
+ul li {
+    /* float: left; */
+    display: inline-block;
+    padding: 0px;
+    margin: 2px;
+}
