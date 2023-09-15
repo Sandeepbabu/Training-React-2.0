@@ -1,0 +1,56 @@
+nav {
+  top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #fff831;
+  margin-left: auto;
+}
+
+.logo{
+  text-align: left;
+  display: flex;
+  position:absolute;
+  width: 150px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  }
+
+  
+div.navbar-right{
+  display: flex;
+  text-align: right;
+  text-decoration: none;
+  list-style-type:none;
+}
+
+.navbar-right ul {
+  display: flex;
+  padding: 5px;
+  align-items:center;
+  
+  
+}
+.navbar-right li {
+   /* removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type:none;
+  margin: 0 1rem; 
+  
+}
+.navbar-right li a {
+  /* increases the surface area of the anchor tag to span more than just the anchor text */
+  text-decoration: none;
+  width: 100%;
+ }
+
+.navbar-right li a:hover {
+  background-color: #e62b2b;
+  border-top-left-radius: 15px; 
+  border-top-right-radius: 15px; 
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px; 
+ }  

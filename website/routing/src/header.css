@@ -1,0 +1,12 @@
+header{
+    margin-top: 45px;
+width: 831px;
+height: 2254px;
+flex-shrink: 0;
+border-radius: var(--none, 0px);
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+width: 789, height: 49, position: 'relative', borderRadius: 5, overflow: 'hidden', border: '0.50px #7B61FF dotted
