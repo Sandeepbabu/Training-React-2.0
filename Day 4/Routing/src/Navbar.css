@@ -1,0 +1,44 @@
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+    /* padding: 0.5rem 0rem; */
+    background-color: #5a8afc;
+    margin-left: auto;
+    justify-content: space-between;
+   
+  }
+
+  .logo{
+    width: 100px;
+    padding:0;
+    
+    }
+    
+
+.navbar-right ul {
+    display: flex;
+    /* padding: 5px; */
+    align-items:center;
+    text-align: right;
+    
+  }
+  .navbar-right li {
+     /* removes default disc bullet for li tags and applies margin to left & right side */
+    list-style-type:none;
+    margin: 0 1rem;
+    
+  }
+  .navbar-right li a {
+    /* increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    
+  }
+
+  .navbar-right li a:hover {
+    background-color: #fb3b19;
+  }  
