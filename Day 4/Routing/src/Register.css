@@ -1,0 +1,28 @@
+.reg-form {
+    background-color: rgb(67, 244, 126);
+    padding: 2rem;
+    
+  }
+
+
+  .Registration {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  
+
+.regbutton{
+    align-items: center;
+    display: inline-flex;
+    display: block;
+    text-decoration: none;
+
+}
+
+
+
+
