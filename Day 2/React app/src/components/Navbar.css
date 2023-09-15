@@ -1,0 +1,13 @@
+.nav{
+    color: white;
+    background-color:rgb(102, 145, 253);
+    /* text-align: center; */
+    justify-content: center;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 2px;
+}
