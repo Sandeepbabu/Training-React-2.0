@@ -1,0 +1,31 @@
+1	 $ git init
+2   	 $ git add .
+3 	 $ git status
+
+4	$ git commit -m "Day-2"
+	{(IF YOU GET BELOW ERROR)
+	Author identity unknown
+*** Please tell me who you are.	
+	Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.}
+
+run this code----->	$ git config user.email "vdeepu190@gmail.com"
+
+5  	$ git commit -m "Day-2"
+6 	$ git branch -M main (check if branch is master/main)
+7 	$ git remote add origin <GitHub link>
+8	$ git push -u origin main
+{! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Sandeepbabu/React.git'}
+
+9	git branch -M master
+10 	$ git remote add origin <GitHub link>    (ctrl + shift +Insert)
+11	$ git push -u origin master
+
+
+
+
+https://www.youtube.com/watch?v=ba1sVf2OVc4
